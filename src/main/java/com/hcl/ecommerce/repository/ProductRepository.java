@@ -1,17 +1,15 @@
 package com.hcl.ecommerce.repository;
 
-
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.hcl.ecommerce.entity.User;
+import com.hcl.ecommerce.entity.Product;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Integer> {
+public interface ProductRepository extends JpaRepository<Product, Integer> {
 	
-	public Optional<User> findByUserId(Integer userId);
-
-
+	public Optional<Product> findByProductId(Integer productId);
+	
 }

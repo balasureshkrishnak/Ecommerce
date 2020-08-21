@@ -7,11 +7,8 @@ import org.mockito.Mock;
 import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import com.hcl.ecommerce.model.User;
+import com.hcl.ecommerce.entity.User;
 import com.hcl.ecommerce.repository.UserRepository;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import org.junit.Assert;
 

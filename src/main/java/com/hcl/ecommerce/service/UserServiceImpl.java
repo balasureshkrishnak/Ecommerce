@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 
 import com.hcl.ecommerce.dto.UserLoginDto;
 import com.hcl.ecommerce.dto.UserRegistrationDto;
-import com.hcl.ecommerce.model.User;
+import com.hcl.ecommerce.entity.User;
 import com.hcl.ecommerce.repository.UserRepository;
 
 
