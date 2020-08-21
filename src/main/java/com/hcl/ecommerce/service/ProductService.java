@@ -5,6 +5,6 @@ import com.hcl.ecommerce.dto.ResponseDto;
 
 public interface ProductService {
 	
-	public ResponseDto placeOrder(int userId, ProductDto productDto);
+	public ResponseDto buyProduct(int userId, ProductDto productDto);
 
 }

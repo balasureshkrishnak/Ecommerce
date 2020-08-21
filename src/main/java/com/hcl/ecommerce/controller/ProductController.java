@@ -22,8 +22,8 @@ public class ProductController {
 	ProductServiceImpl productServiceImpl;
 	
 	@PostMapping("/{userId}")
-	public ResponseEntity<ResponseDto> buyProducts(@PathVariable int userId, @RequestBody ProductDto productDto){
-		ResponseDto responseDto = productServiceImpl.placeOrder(userId, productDto);
+	public ResponseEntity<ResponseDto> buyProduct(@PathVariable int userId, @RequestBody ProductDto productDto){
+		ResponseDto responseDto = productServiceImpl.buyProduct(userId, productDto);
 		
 		return new ResponseEntity<>(responseDto, HttpStatus.OK);
 	}

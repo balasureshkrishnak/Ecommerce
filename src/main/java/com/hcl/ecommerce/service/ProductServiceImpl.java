@@ -28,7 +28,7 @@ public class ProductServiceImpl implements ProductService {
 	@Autowired
 	OrderHistoryRepository orderHistoryRepository;
 
-	public ResponseDto placeOrder(int userId, ProductDto productDto) {
+	public ResponseDto buyProduct(int userId, ProductDto productDto) {
 
 		double totalCost = 0.00;
 		ResponseDto responseDto = new ResponseDto();
